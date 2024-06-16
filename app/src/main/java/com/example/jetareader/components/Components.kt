@@ -90,6 +90,12 @@ fun ReaderLogo(modifier: Modifier = Modifier) {
     )
 }
 
+@Preview
+@Composable
+fun ReaderLogoPreview() {
+    ReaderLogo()
+}
+
 @Composable
 fun EmailInput(
     modifier: Modifier = Modifier,
